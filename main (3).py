@@ -16,8 +16,6 @@ DB = "stars_bot.sqlite3"
 RATE = Decimal("1.4")
 REQUISITES = "89878343491 (Альфа-Банк)"
 STICKER_LINK = "https://t.me/addemoji/GiftRoadStars_bot"
-VIDEO_PATH = "start_video.mp4"
-PHOTO_PATH = "stars_image.jpg"
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)
